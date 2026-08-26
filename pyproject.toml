@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 42.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+xfail_strict = true
+testpaths = ["tests"]
+
+[[tool.mypy.overrides]]
+module = ["arbol_kd"]
+ignore_missing_imports = true
+
+[tool.ruff]
+target-version = "py312"
+
+[tool.ruff.lint]
+extend-select = ["B", "I", "PGH", "RUF", "UP"]

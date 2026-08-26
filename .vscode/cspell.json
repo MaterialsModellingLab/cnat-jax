@@ -1,0 +1,18 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "absl",
+    "absltest",
+    "accum",
+    "cnat",
+    "embs",
+    "gfile",
+    "posemb",
+    "posembed",
+    "prng",
+    "tfds",
+    "unpooled",
+    "unreplicate"
+  ]
+}
